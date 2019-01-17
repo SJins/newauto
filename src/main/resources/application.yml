@@ -1,0 +1,7 @@
+# DataSource Config
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql:13.250.74.156:3306/db_selfcoding?TimeZone=UTC
+    username: root
+    password: 1111
