@@ -4,7 +4,6 @@ package com.su.selfcoding.selfcoding.controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import org.springframework.web.bind.annotation.RestController;
-import com.su.selfcoding.common.BaseController;
 
 /**
  * <p>
@@ -16,6 +15,6 @@ import com.su.selfcoding.common.BaseController;
  */
 @RestController
 @RequestMapping("/selfcoding/userdetial")
-public class UserdetialController extends BaseController {
+public class UserdetialController {
 
 }

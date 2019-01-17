@@ -114,10 +114,10 @@ public class Auto {
         StrategyConfig strategy = new StrategyConfig();
         strategy.setNaming(NamingStrategy.underline_to_camel);
         strategy.setColumnNaming(NamingStrategy.underline_to_camel);
-        strategy.setSuperEntityClass("com.su.selfcoding.common.BaseEntity");
+        //strategy.setSuperEntityClass("com.su.selfcoding.common.BaseEntity");
         strategy.setEntityLombokModel(true);
         strategy.setRestControllerStyle(true);
-        strategy.setSuperControllerClass("com.su.selfcoding.common.BaseController");
+        //strategy.setSuperControllerClass("com.su.selfcoding.common.BaseController");
         strategy.setInclude(tables);
         strategy.setSuperEntityColumns("id");
         strategy.setControllerMappingHyphenStyle(true);
